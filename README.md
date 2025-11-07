@@ -1,4 +1,4 @@
-COROPITを使用する方は以下のようにコードを編集してください。
+COROPITを使用する方は以下のようにコードを編集してください。nixiy版
 
 mona2_r.overlay
 
