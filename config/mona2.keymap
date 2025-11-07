@@ -34,9 +34,54 @@
             key-positions = <1 2>;
         };
 
-        ctrlshift {
+        lctrlshift {
             bindings = <&kp LS(LCTRL)>;
-            key-positions = <10 21>;
+            key-positions = <22 23 24>;
+        };
+
+        lshift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <22 23>;
+        };
+
+        rshift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <31 30>;
+        };
+
+        rctrlshift {
+            bindings = <&kp LS(LCTRL)>;
+            key-positions = <30 31 29>;
+        };
+
+        lctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <23 24>;
+        };
+
+        rctrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <30 29>;
+        };
+
+        dquote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <8 9>;
+        };
+
+        quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <8 7>;
+        };
+
+        semicolon {
+            bindings = <&kp SEMI>;
+            key-positions = <18 19>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <19 20>;
         };
     };
 
