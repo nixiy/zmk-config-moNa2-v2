@@ -26,12 +26,27 @@
 
         layer4_ESC {
             bindings = <&lt 4 ESC>;
-            key-positions = <39 38>;
+            key-positions = <1 2>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
+        };
+
+        left_clk {
+            bindings = <&mkp LCLK>;
+            key-positions = <17 18>;
+        };
+
+        right_clk {
+            bindings = <&mkp RCLK>;
+            key-positions = <18 19>;
+        };
+
+        middle_clk {
+            bindings = <&mkp MCLK>;
+            key-positions = <17 19>;
         };
     };
 
@@ -76,10 +91,10 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W         &kp E           &kp R  &kp T                                 &kp Y            &kp U  &kp I            &kp O                   &kp P
-&kp A  &kp S         &kp D           &kp F  &kp G                  &kp RCTRL      &kp H            &kp J  &kp K            &kp L                   &kp MINUS
-&kp Z  &kp X         &kp C           &kp V  &kp B  &kp LEFT_ALT    &kp TAB        &kp N            &kp M  &mt RCTRL COMMA  &mt RIGHT_SHIFT PERIOD  &kp EQUAL
-&mo 4  &kp LEFT_WIN  &kp LEFT_SHIFT  &mo 6  &mo 1  &kp SPACE       &kp BACKSPACE  &mt RCTRL ENTER                                                  &kp ESCAPE
+&kp Q  &kp W         &kp E         &kp R  &kp T                                     &kp Y      &kp U  &kp I            &kp O                   &kp P
+&kp A  &kp S         &kp D         &kp F  &kp G                    &kp RCTRL        &kp H      &kp J  &kp K            &lt 2 L                 &kp MINUS
+&kp Z  &kp X         &kp C         &kp V  &kp B  &kp LEFT_SHIFT    &kp RIGHT_SHIFT  &kp N      &kp M  &mt RCTRL COMMA  &mt RIGHT_SHIFT PERIOD  &kp EQUAL
+&mo 5  &kp LEFT_WIN  &kp LEFT_ALT  &mo 2  &mo 1  &kp SPACE         &kp BACKSPACE    &kp ENTER                                                  &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -99,8 +114,8 @@
         layer_2 {
             bindings = <
 &kp ESC  &trans    &trans      &trans           &trans                           &trans     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE   &kp PERCENT
-&kp AT   &kp HASH  &kp DOLLAR  &kp EXCLAMATION  &kp QUESTION             &trans  &kp CARET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI   &kp SINGLE_QUOTE
-&trans   &trans    &trans      &trans           &kp BACKSLASH  &trans    &trans  &kp AMPS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON  &kp DOUBLE_QUOTES
+&kp AT   &kp HASH  &kp DOLLAR  &kp EXCLAMATION  &kp QUESTION             &trans  &kp CARET  &mkp LCLK             &mkp RCLK              &kp SEMI   &kp SINGLE_QUOTE
+&trans   &trans    &trans      &trans           &kp BACKSLASH  &trans    &trans  &kp AMPS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp DOUBLE_QUOTES
 &trans   &trans    &trans      &trans           &trans         &trans    &trans  &trans                                                             &trans
             >;
 
