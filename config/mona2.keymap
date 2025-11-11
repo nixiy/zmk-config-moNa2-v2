@@ -36,12 +36,12 @@
 
         lshift {
             bindings = <&kp LEFT_SHIFT>;
-            key-positions = <11 10>;
+            key-positions = <11 12>;
         };
 
         rshift {
             bindings = <&kp LEFT_SHIFT>;
-            key-positions = <19 20>;
+            key-positions = <19 18>;
         };
 
         lctrl {
@@ -82,6 +82,16 @@
         hatena {
             bindings = <&kp QUESTION>;
             key-positions = <30 31>;
+        };
+
+        rctrlshift {
+            bindings = <&kp LC(LEFT_SHIFT)>;
+            key-positions = <19 18 17>;
+        };
+
+        lctrlshift {
+            bindings = <&kp LC(LEFT_SHIFT)>;
+            key-positions = <11 12 13>;
         };
     };
 
