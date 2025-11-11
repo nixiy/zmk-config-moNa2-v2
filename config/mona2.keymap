@@ -36,52 +36,72 @@
 
         lctrlshift {
             bindings = <&kp LS(LCTRL)>;
-            key-positions = <22 23 24>;
+            key-positions = <11 12 13>;
         };
 
         lshift {
             bindings = <&kp LEFT_SHIFT>;
-            key-positions = <22 23>;
+            key-positions = <11 12>;
         };
 
         rshift {
             bindings = <&kp LEFT_SHIFT>;
-            key-positions = <31 30>;
+            key-positions = <18 19>;
         };
 
         rctrlshift {
             bindings = <&kp LS(LCTRL)>;
-            key-positions = <30 31 29>;
+            key-positions = <17 18 19>;
         };
 
         lctrl {
             bindings = <&kp LCTRL>;
-            key-positions = <23 24>;
+            key-positions = <12 13>;
         };
 
         rctrl {
             bindings = <&kp RCTRL>;
-            key-positions = <30 29>;
+            key-positions = <17 18>;
         };
 
         dquote {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <8 9>;
+            key-positions = <9 20>;
         };
 
         quote {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <8 7>;
+            key-positions = <8 19>;
+        };
+
+        lalt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <10 11>;
+        };
+
+        ralt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <19 20>;
         };
 
         semicolon {
             bindings = <&kp SEMI>;
-            key-positions = <18 19>;
+            key-positions = <6 17>;
         };
 
-        colon {
+        coron {
             bindings = <&kp COLON>;
-            key-positions = <19 20>;
+            key-positions = <7 18>;
+        };
+
+        bikkuri {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <29 30>;
+        };
+
+        hatena {
+            bindings = <&kp QUESTION>;
+            key-positions = <30 31>;
         };
     };
 
@@ -126,10 +146,10 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W         &kp E         &kp R  &kp T                                     &kp Y      &kp U  &kp I            &kp O                   &kp P
-&kp A  &kp S         &kp D         &kp F  &kp G                    &kp RIGHT_ALT    &kp H      &kp J  &kp K            &kp L                   &kp MINUS
-&kp Z  &kp X         &kp C         &kp V  &kp B  &kp LEFT_SHIFT    &kp RIGHT_SHIFT  &kp N      &kp M  &mt RCTRL COMMA  &mt RIGHT_SHIFT PERIOD  &kp EQUAL
-&mo 3  &kp LEFT_WIN  &kp LEFT_ALT  &mo 2  &mo 1  &kp SPACE         &kp BACKSPACE    &kp ENTER                                                  &kp SLASH
+&kp Q  &kp W         &kp E         &kp R  &kp T                                     &kp Y      &kp U  &kp I      &kp O       &kp P
+&kp A  &kp S         &kp D         &kp F  &kp G                    &kp SLASH        &kp H      &kp J  &kp K      &kp L       &kp MINUS
+&kp Z  &kp X         &kp C         &kp V  &kp B  &kp LEFT_SHIFT    &kp RIGHT_SHIFT  &kp N      &kp M  &kp COMMA  &kp PERIOD  &kp EQUAL
+&mo 3  &kp LEFT_WIN  &kp LEFT_ALT  &mo 2  &mo 1  &kp SPACE         &kp BACKSPACE    &kp ENTER                                &kp SLASH
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -138,8 +158,8 @@
         number {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                        &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp F1        &kp F2        &kp F3        &kp F4        &kp F5                  &trans      &mkp MCLK     &mkp LCLK     &kp UP_ARROW  &mkp RCLK     &kp GRAVE
-&kp F6        &kp F7        &kp F8        &kp F9        &kp F10       &trans    &trans      &kp HOME      &kp LEFT      &kp DOWN      &kp RIGHT     &kp END
+&kp F1        &kp F2        &kp F3        &kp F4        &kp F5                  &mkp MB5    &mkp MCLK     &mkp LCLK     &kp UP_ARROW  &mkp RCLK     &kp GRAVE
+&kp F6        &kp F7        &kp F8        &kp F9        &kp F10       &trans    &mkp MB4    &kp HOME      &kp LEFT      &kp DOWN      &kp RIGHT     &kp END
 &trans        &trans        &trans        &trans        &trans        &trans    &kp DELETE  &trans                                                  &trans
             >;
 
@@ -148,10 +168,10 @@
 
         symbol {
             bindings = <
-&kp ESC  &trans    &trans      &trans           &trans                           &trans     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE   &kp PERCENT
-&kp AT   &kp HASH  &kp DOLLAR  &kp EXCLAMATION  &kp QUESTION             &trans  &kp CARET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI   &kp SINGLE_QUOTE
-&trans   &trans    &trans      &trans           &kp BACKSLASH  &trans    &trans  &kp AMPS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON  &kp DOUBLE_QUOTES
-&trans   &trans    &trans      &trans           &trans         &trans    &trans  &trans                                                             &trans
+&trans  &trans     &trans      &trans  &trans                           &trans     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE   &kp PERCENT
+&kp AT  &kp HASH   &kp DOLLAR  &trans  &trans                   &trans  &kp CARET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI   &kp SINGLE_QUOTE
+&trans  &kp ASTRK  &trans      &trans  &kp BACKSLASH  &trans    &trans  &kp AMPS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON  &kp DOUBLE_QUOTES
+&trans  &trans     &trans      &trans  &trans         &trans    &trans  &trans                                                             &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
