@@ -147,10 +147,10 @@
 
         number {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                              &kp NUMBER_6       &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9  &kp NUMBER_0
-&kp F1        &kp F2        &kp F3        &kp F4        &kp F5                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mkp LCLK             &mkp MCLK              &mkp RCLK     &kp SINGLE_QUOTE
-&kp F6        &kp F7        &kp F8        &kp F9        &kp F10       &trans    &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH     &kp DOUBLE_QUOTES
-&trans        &trans        &trans        &trans        &trans        &trans    &kp DELETE        &trans                                                                        &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                            &kp NUMBER_6     &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9      &kp NUMBER_0
+&kp F1        &kp F2        &kp F3        &kp F4        &kp F5                  &trans          &mkp MB4         &mkp LCLK             &mkp MCLK              &mkp RCLK         &mkp MB5
+&kp F6        &kp F7        &kp F8        &kp F9        &kp F10       &trans    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans        &trans        &trans        &trans        &trans        &trans    &kp DELETE      &trans                                                                          &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -158,10 +158,10 @@
 
         symbol {
             bindings = <
-&trans  &trans     &trans      &trans  &trans                      &trans    &kp EXCL  &kp QUESTION  &kp PIPE       &kp PERCENT
-&kp AT  &kp HASH   &kp DOLLAR  &trans  &trans            &kp HOME  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT      &kp TILDE
-&trans  &kp ASTRK  &kp CARET   &trans  &trans  &trans    &kp END   &kp AMPS  &kp SEMI  &kp COLON     &kp BACKSLASH  &trans
-&trans  &trans     &trans      &trans  &trans  &trans    &trans    &trans                                           &trans
+&trans  &trans     &trans      &trans        &trans                            &trans    &kp EXCL  &kp QUESTION  &kp PIPE   &kp PERCENT
+&kp AT  &kp HASH   &kp DOLLAR  &kp PLUS      &kp MINUS               &kp HOME  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp TILDE
+&trans  &kp ASTRK  &kp CARET   &kp ASTERISK  &kp SLASH  &kp EQUAL    &kp END   &kp AMPS  &kp SEMI  &kp COLON     &kp SLASH  &kp BACKSLASH
+&trans  &trans     &trans      &trans        &trans     &trans       &trans    &trans                                       &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
