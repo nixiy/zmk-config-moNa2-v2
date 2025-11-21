@@ -12,7 +12,7 @@
 
 &mt {
     flavor = "balanced";
-    quick-tap-ms = <100>;
+    quick-tap-ms = <150>;
 };
 
 &lt {
@@ -26,12 +26,12 @@
 
         layer4_ESC {
             bindings = <&lt 3 ESC>;
-            key-positions = <10 11>;
+            key-positions = <0 1>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            key-positions = <1 2>;
         };
 
         rshift {
