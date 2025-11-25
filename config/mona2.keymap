@@ -43,36 +43,6 @@
             bindings = <&kp SEMI>;
             key-positions = <19 20>;
         };
-
-        parentis {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <6 7>;
-        };
-
-        parentisl {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <7 8>;
-        };
-
-        bracer {
-            bindings = <&kp LEFT_BRACE>;
-            key-positions = <17 18>;
-        };
-
-        bracel {
-            bindings = <&kp RIGHT_BRACE>;
-            key-positions = <18 19>;
-        };
-
-        bracketr {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <29 30>;
-        };
-
-        bracketl {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <30 31>;
-        };
     };
 
     macros {
@@ -138,10 +108,10 @@
 
         symbol {
             bindings = <
-&trans  &trans     &trans      &trans        &trans                            &trans           &kp EXCL  &kp QUESTION  &kp PIPE   &kp PERCENT
-&kp AT  &kp HASH   &kp DOLLAR  &kp PLUS      &kp MINUS               &kp HOME  &kp LEFT         &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp TILDE
-&trans  &kp ASTRK  &kp CARET   &kp ASTERISK  &kp SLASH  &kp EQUAL    &kp END   &kp AMPS         &kp SEMI  &kp COLON     &kp SLASH  &kp BACKSLASH
-&trans  &trans     &trans      &trans        &trans     &trans       &trans    &kp RIGHT_SHIFT                                     &trans
+&trans  &trans        &trans      &trans  &trans                         &trans           &kp EXCL  &kp QUESTION  &kp PIPE   &kp PERCENT
+&kp AT  &kp HASH      &kp DOLLAR  &trans  &trans               &kp HOME  &kp LEFT         &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp TILDE
+&trans  &kp ASTERISK  &kp CARET   &trans  &kp GRAVE  &trans    &kp END   &kp AMPS         &kp SEMI  &kp COLON     &kp SLASH  &kp BACKSLASH
+&trans  &trans        &trans      &trans  &trans     &trans    &trans    &kp RIGHT_SHIFT                                     &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
