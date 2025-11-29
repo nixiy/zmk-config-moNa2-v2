@@ -54,13 +54,13 @@
             key-positions = <27 28>;
         };
 
-        to_jp {
-            bindings = <&kp LANG1>;
+        en {
+            bindings = <&kp LANG2>;
             key-positions = <12 13>;
         };
 
-        to_eng {
-            bindings = <&kp LANG2>;
+        jp {
+            bindings = <&kp LANGUAGE_1>;
             key-positions = <17 18>;
         };
     };
