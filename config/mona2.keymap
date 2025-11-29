@@ -55,12 +55,12 @@
         };
 
         to_eng {
-            bindings = <&kp LC(LANG1)>;
+            bindings = <&kp LANG1>;
             key-positions = <12 13>;
         };
 
         to_jp {
-            bindings = <&kp LC(LANG2)>;
+            bindings = <&kp LANG2>;
             key-positions = <17 18>;
         };
     };
