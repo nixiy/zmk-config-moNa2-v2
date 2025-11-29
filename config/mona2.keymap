@@ -54,8 +54,13 @@
             key-positions = <27 28>;
         };
 
-        ctrl_space {
-            bindings = <&kp LC(SPACE)>;
+        to_eng {
+            bindings = <&kp LC(LANG1)>;
+            key-positions = <12 13>;
+        };
+
+        to_jp {
+            bindings = <&kp LC(LANG2)>;
             key-positions = <17 18>;
         };
     };
