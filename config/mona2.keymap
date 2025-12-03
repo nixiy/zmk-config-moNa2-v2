@@ -64,24 +64,14 @@
             key-positions = <17 18>;
         };
 
-        ctrl {
-            bindings = <&kp RCTRL>;
-            key-positions = <38 39>;
+        Slash {
+            bindings = <&kp SLASH>;
+            key-positions = <31 30>;
         };
 
-        shift {
-            bindings = <&kp LEFT_SHIFT>;
-            key-positions = <37 40>;
-        };
-
-        ctrl2 {
-            bindings = <&kp RCTRL>;
-            key-positions = <17 40>;
-        };
-
-        ctrl3 {
-            bindings = <&kp RCTRL>;
-            key-positions = <13 37>;
+        Scroll {
+            bindings = <&mo 2>;
+            key-positions = <18 29>;
         };
     };
 
