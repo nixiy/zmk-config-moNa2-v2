@@ -73,6 +73,16 @@
             bindings = <&mo 2>;
             key-positions = <18 29>;
         };
+
+        bootloader_l {
+            bindings = <&bootloader>;
+            key-positions = <0 4 21 25>;
+        };
+
+        bootloader_r {
+            bindings = <&bootloader>;
+            key-positions = <5 9 32 28>;
+        };
     };
 
     macros {
