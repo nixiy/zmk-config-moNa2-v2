@@ -148,10 +148,10 @@
 
         symbol {
             bindings = <
-&trans  &trans    &trans      &trans     &trans                          &trans           &kp EXCL   &kp QUESTION   &kp PIPE   &kp PERCENT
-&kp AT  &kp HASH  &kp DOLLAR  &kp MINUS  &kp PLUS                &trans  &kp LEFT         &kp DOWN   &kp UP_ARROW   &kp RIGHT  &kp TILDE
-&trans  &trans    &kp CARET   &kp SLASH  &kp ASTERISK  &trans    &trans  &kp AMPS         &kp SLASH  &kp BACKSLASH  &trans     &kp GRAVE
-&trans  &trans    &trans      &trans     &trans        &trans    &trans  &kp RIGHT_SHIFT                                       &trans
+&trans  &trans    &trans      &trans     &trans                       &trans    &kp EXCL  &kp QUESTION   &kp PIPE   &kp PERCENT
+&kp AT  &kp HASH  &kp DOLLAR  &kp ASTRK  &kp SLASH            &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW   &kp RIGHT  &kp TILDE
+&trans  &trans    &kp CARET   &kp PLUS   &kp MINUS  &trans    &trans  &kp AMPS  &trans    &kp BACKSLASH  &trans     &kp GRAVE
+&trans  &trans    &trans      &trans     &trans     &trans    &trans  &trans                                        &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
