@@ -34,11 +34,6 @@
             key-positions = <1 2>;
         };
 
-        quote {
-            bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <18 19>;
-        };
-
         semicolon {
             bindings = <&kp SEMI>;
             key-positions = <19 20>;
@@ -62,11 +57,6 @@
         jp {
             bindings = <&kp LANGUAGE_1>;
             key-positions = <17 18>;
-        };
-
-        Slash {
-            bindings = <&kp SLASH>;
-            key-positions = <31 30>;
         };
 
         bootloader_l {
@@ -153,10 +143,10 @@
 
         symbol {
             bindings = <
-&trans  &trans    &trans      &trans     &trans                       &trans    &trans    &trans         &kp PIPE   &kp PERCENT
-&kp AT  &kp HASH  &kp DOLLAR  &kp ASTRK  &kp SLASH            &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW   &kp RIGHT  &kp TILDE
-&trans  &trans    &kp CARET   &kp PLUS   &kp MINUS  &trans    &trans  &kp AMPS  &trans    &kp BACKSLASH  &trans     &kp GRAVE
-&trans  &trans    &trans      &trans     &trans     &trans    &trans  &trans                                        &trans
+&trans  &trans    &trans      &trans     &kp BACKSLASH                    &trans    &trans            &trans             &kp PIPE   &kp PERCENT
+&kp AT  &kp HASH  &kp DOLLAR  &kp ASTRK  &kp SLASH                &trans  &kp LEFT  &kp DOWN          &kp UP_ARROW       &kp RIGHT  &kp TILDE
+&trans  &trans    &kp CARET   &kp PLUS   &kp MINUS      &trans    &trans  &kp AMPS  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp GRAVE  &trans
+&trans  &trans    &trans      &trans     &trans         &trans    &trans  &trans                                                    &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
