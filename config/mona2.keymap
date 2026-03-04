@@ -43,6 +43,11 @@
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <8 9>;
         };
+
+        lang1 {
+            bindings = <&kp RCTRL>;
+            key-positions = <17 18>;
+        };
     };
 
     macros {
