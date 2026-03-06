@@ -45,7 +45,7 @@
         };
 
         rctrl {
-            bindings = <&kp RCTRL>;
+            bindings = <&kp LANG2>;
             key-positions = <17 18>;
         };
 
@@ -60,7 +60,7 @@
         };
 
         rshift {
-            bindings = <&kp RIGHT_SHIFT>;
+            bindings = <&kp LANGUAGE_1>;
             key-positions = <29 30>;
         };
     };
